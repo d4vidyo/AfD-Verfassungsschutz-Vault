@@ -1,0 +1,37 @@
+---
+type: zitat
+speaker: "[[Fabian Küble]]"
+date: 2024-07-03
+topic: Menschenwürde
+page_bfv: 135
+source: 'X (ehemals Twitter)'
+status: Unbewertet
+---
+
+# Zitat: [[Fabian Küble]] vom 3.7.2024 veröffentlicht auf: 'X (ehemals Twitter)'
+> [!quote] Aussage
+>Österreicher sind auch Deutsche. Aber das wissen nicht-Deutsche und erst recht nicht-Europäer wie sie ja offenbar nicht.
+
+**Parser-Notiz:** Keine
+
+**SPIEGEL-Notiz:** Gutachten Seite: 135
+
+**Verfassungsschutz Kategorisierung:** Verstoß gegen die Menschenwürde.
+
+---
+## Meine Auswertung:
+
+**Meine Bewertung:** `INPUT[inlineSelect(option(Unbewertet), option(Legitim), option(Fragwürdig), option(Nicht legitim), defaultValue(Unbewertet)):status]`
+
+_Mein Kommentar:_ 
+
+
+---
+# Nächste Aussage:
+```dataview
+TABLE speaker AS "Person", date AS "Datum", topic AS "Thema", choice(speaker.is_still_member, "Ja", "Nein") AS "Noch Mitglied?"
+FROM "Personen"
+WHERE type = "zitat" and status = "Unbewertet" AND file.name != this.file.name
+SORT speaker.is_still_member DESC, speaker.relevance ASC, speaker ASC, date ASC
+LIMIT 10
+```

@@ -1,0 +1,37 @@
+---
+type: zitat
+speaker: "[[Gunnar Lindemann]]"
+date: 2023-09-14
+topic: Menschenwürde
+page_bfv: 369
+source: 'X (ehemals Twitter)'
+status: Unbewertet
+---
+
+# Zitat: [[Gunnar Lindemann]] vom 14.9.2023 veröffentlicht auf: 'X (ehemals Twitter)'
+> [!quote] Aussage
+>#Europa wird in #Lampedusa von illegalen Invasoren überrannt. Es ist dringend Zeit für ein Rückführungsprogramm. Diese Menschen müssen unverzüglich nach Afrika zurückgebracht werden. Wir brauchen die Festung Europa.
+
+**Parser-Notiz:** Keine
+
+**SPIEGEL-Notiz:** Gutachten Seite: 369
+
+**Verfassungsschutz Kategorisierung:** Verstoß gegen die Menschenwürde.
+
+---
+## Meine Auswertung:
+
+**Meine Bewertung:** `INPUT[inlineSelect(option(Unbewertet), option(Legitim), option(Fragwürdig), option(Nicht legitim), defaultValue(Unbewertet)):status]`
+
+_Mein Kommentar:_ 
+
+
+---
+# Nächste Aussage:
+```dataview
+TABLE speaker AS "Person", date AS "Datum", topic AS "Thema", choice(speaker.is_still_member, "Ja", "Nein") AS "Noch Mitglied?"
+FROM "Personen"
+WHERE type = "zitat" and status = "Unbewertet" AND file.name != this.file.name
+SORT speaker.is_still_member DESC, speaker.relevance ASC, speaker ASC, date ASC
+LIMIT 10
+```

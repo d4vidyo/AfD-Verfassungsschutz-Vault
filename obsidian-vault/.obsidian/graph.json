@@ -1,0 +1,65 @@
+{
+  "collapse-filter": true,
+  "search": "path:Personen  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"type\":person][\"is_still_member\":true]",
+      "color": {
+        "a": 1,
+        "rgb": 40672
+      }
+    },
+    {
+      "query": "[\"type\":person][\"is_still_member\":false]",
+      "color": {
+        "a": 1,
+        "rgb": 7995498
+      }
+    },
+    {
+      "query": "[\"type\":zitat][\"status\":Unbewertet]",
+      "color": {
+        "a": 1,
+        "rgb": 9671306
+      }
+    },
+    {
+      "query": "[\"type\":zitat][\"status\":Nicht legitim]",
+      "color": {
+        "a": 1,
+        "rgb": 14745600
+      }
+    },
+    {
+      "query": "[\"type\":zitat][\"status\":Legitim]",
+      "color": {
+        "a": 1,
+        "rgb": 235776
+      }
+    },
+    {
+      "query": "[\"type\":zitat][\"status\":Fragwürdig]",
+      "color": {
+        "a": 1,
+        "rgb": 15053610
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.61848958333333,
+  "lineSizeMultiplier": 1.75885416666667,
+  "collapse-forces": false,
+  "centerStrength": 0.471354166666667,
+  "repelStrength": 11.1458333333333,
+  "linkStrength": 0.518229166666667,
+  "linkDistance": 187,
+  "scale": 0.04778763710962515,
+  "close": true
+}

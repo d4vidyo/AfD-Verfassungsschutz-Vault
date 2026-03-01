@@ -1,0 +1,37 @@
+---
+type: zitat
+speaker: "[[Sebastian Münzenmaier]]"
+date: 2023-06-17
+topic: Demokratieprinzip
+page_bfv: 597
+source: 'Facebook'
+status: Unbewertet
+---
+
+# Zitat: [[Sebastian Münzenmaier]] vom 17.6.2023 veröffentlicht auf: 'Facebook'
+> [!quote] Aussage
+>Der Volksaufstand vom 17. Juni 1953 jährt sich zum 70. Mal und mahnt uns, nicht tatenlos zuzusehen, wenn sich totalitäre Tendenzen in Deutschland ausbreiten und oppositionelle Meinungen in zunehmendem Maße kriminalisiert werden. Wir werden weiter für die Zukunft unserer Heimat kämpfen!
+
+**Parser-Notiz:** Keine
+
+**SPIEGEL-Notiz:** Gutachten Seite: 597
+
+**Verfassungsschutz Kategorisierung:** Verstoß gegen das Demokratieprinzip.
+
+---
+## Meine Auswertung:
+
+**Meine Bewertung:** `INPUT[inlineSelect(option(Unbewertet), option(Legitim), option(Fragwürdig), option(Nicht legitim), defaultValue(Unbewertet)):status]`
+
+_Mein Kommentar:_ 
+
+
+---
+# Nächste Aussage:
+```dataview
+TABLE speaker AS "Person", date AS "Datum", topic AS "Thema", choice(speaker.is_still_member, "Ja", "Nein") AS "Noch Mitglied?"
+FROM "Personen"
+WHERE type = "zitat" and status = "Unbewertet" AND file.name != this.file.name
+SORT speaker.is_still_member DESC, speaker.relevance ASC, speaker ASC, date ASC
+LIMIT 10
+```

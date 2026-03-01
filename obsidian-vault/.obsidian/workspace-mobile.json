@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "95ef48b3af6f262e",
+    "type": "split",
+    "children": [
+      {
+        "id": "51e98ba2b9e3ce40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f36089849e5d0db6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b165c783a4d2ee3c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7a2f16d68e15c865",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Dateiexplorer"
+        }
+      },
+      {
+        "id": "fd35639bb65a88b9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Suchen"
+        }
+      },
+      {
+        "id": "7d83c43a01e51559",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "6774684a9ce57d43",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Lesezeichen"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "0a919ad1723ec94e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d206c71cd05a90fc",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Dashboard.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Rückverweise"
+        }
+      },
+      {
+        "id": "334611a8454e731d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Dashboard.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Ausgehende Links"
+        }
+      },
+      {
+        "id": "7cea50d08b65d0ca",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Dashboard.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Gliederung"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false
+    }
+  },
+  "active": "f36089849e5d0db6",
+  "lastOpenFiles": []
+}
