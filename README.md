@@ -5,6 +5,13 @@ Das Bundesamt für Verfassungsschutz hat in einem 1108 Seiten starken Gutachten 
 
 Dieses Repository stellt die Daten vom Spiegel in Form eines Obsidian-Vaults bereit. Das bedeutet: Zu jedem Zitat können eigene Kommentare und Bewertungen hinzugefügt werden. Dies ermöglicht eine dynamische Sortierung und dadurch ein strukturiertes Durcharbeiten der Zitatsammlung, um sich ein eigenes, fundiertes Urteil darüber zu bilden, ob die gesammelten Zitate eine Verfassungsfeindlichkeit der AfD belegen.
 
+### Dashboard
+<img src="Screenshots\Dashboard.png" width="90%" />
+
+### Zitat
+<img src="Screenshots\Zitat.png" width="90%" />
+
+
 ## Struktur dieses Repositories
 Das Repository ist in zwei Teile aufgeteilt:
 1. _Der fertige Obsidian-Vault:_ Enthält den kompletten Obsidian-Vault, bereit zur sofortigen Verwendung.
@@ -49,5 +56,6 @@ Der fertige Obsidian-Vault enthält die Plugins:
 - [Obsidian Dataview](https://github.com/blacksmithgu/obsidian-dataview) von [Michael "Tres" Brenan](https://github.com/blacksmithgu)
 - [Obsidian Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) von [Moritz Jung](https://github.com/mProjectsCode)
 - [Obsidian Style Settings](https://github.com/mgmeyers/obsidian-style-settings) von [Matthew Meyers](https://github.com/mgmeyers)
+
 sowie ein CSS-Snippet:
 - [MCL Multi Column](https://github.com/efemkay/obsidian-modular-css-layout) von [Faiz Khuzaimah](https://github.com/efemkay)
