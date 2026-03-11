@@ -17,6 +17,16 @@ Das Repository ist in zwei Teile aufgeteilt:
 1. _Der fertige Obsidian-Vault:_ Enthält den kompletten Obsidian-Vault, bereit zur sofortigen Verwendung.
 2. _Das Parser-Skript:_ Enthält den Python-Code, welcher die Daten vom Spiegel in das passende Markdown-Format umwandelt.
 
+## Was ist Obsidian?
+[Obsidian](https://obsidian.md) ist eine kostenlose Software, gedacht für Notizen und Wissensmanagement, aber im Kern ein extrem anpassbarer Texteditor.
+
+Der entscheidende Vorteil: Obsidian arbeitet **komplett offline und lokal**, d.h. alles, was du hier anklickst, bewertest oder schreibst, bleibt zu 100% auf deinem Gerät - niemand liest mit.
+Zudem ermöglichen Plugins das Erweitern von Obsidian um zahlreiche Funktionalitäten. In dem hier bereitgestellten **Vault** sind z.B. die Plugins
+- [Obsidian Dataview](https://github.com/blacksmithgu/obsidian-dataview) zum Erzeugen von automatisch aktualisierenden Tabellen und
+- [Obsidian Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) zum Erstellen von Dropdown-Menüs
+
+enthalten, welche das Durchgehen und Bewerten der Zitate erheblich vereinfachen.
+
 ## Das Parser-Skript
 Das Parser-Skript erzeugt aus den Daten vom Spiegel für jedes Zitat und für jede Person eine Datei. Die beiden Templates `Person_template.md` und `Quote_template.md` definieren deren Aufbau.
 Zusätzlich wird in `Person_ranking.json` eine "Rangordnung" der Personen angegeben, welche die Relevanz einer Person in der AfD zuordnet und eine Sortierung in Obsidian ermöglicht.
